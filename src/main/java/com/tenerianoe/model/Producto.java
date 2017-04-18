@@ -8,18 +8,20 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 /**
  *
  * @author said
  */
 @Entity
+@Table(name = "producto")
+
 public class Producto implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int idProducto;
-
     @Column(name = "producto")
     private String producto;
     @Column(name = "unidadMedida")
