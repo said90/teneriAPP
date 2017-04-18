@@ -30,6 +30,7 @@ public class UsuarioController implements Serializable {
     private Usuario usuario;
     private Persona persona;
 
+    
     private List<Persona> personas;
     private List<Usuario> usuarios;
 

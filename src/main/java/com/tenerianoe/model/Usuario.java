@@ -3,6 +3,7 @@ package com.tenerianoe.model;
 
 import java.io.Serializable;
 import java.util.Objects;
+import javax.inject.Named;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -15,6 +16,7 @@ import javax.persistence.Table;
  *
  * @author said
  */
+
 @Entity
 @Table(name="usuario")
 public class Usuario implements Serializable{
